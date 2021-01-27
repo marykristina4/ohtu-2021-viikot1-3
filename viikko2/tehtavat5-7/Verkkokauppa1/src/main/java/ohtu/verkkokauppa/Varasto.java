@@ -1,7 +1,9 @@
 package ohtu.verkkokauppa;
 
 import java.util.*;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+@Component
 public class Varasto implements Varastoface {
 
 
@@ -10,6 +12,7 @@ public class Varasto implements Varastoface {
     private Kirjanpitoface kirjanpito;
     private HashMap<Tuote, Integer> saldot;  
     
+    @Autowired
     public Varasto(Kirjanpitoface kirjanpitok) {
         kirjanpito = kirjanpitok;
         saldot = new HashMap<Tuote, Integer>();

@@ -1,11 +1,15 @@
 package ohtu;
 
 import ohtu.verkkokauppa.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
 
     public static void main(String[] args) {
-        //ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
         Viitegeneraattori viitegen = new Viitegeneraattori();
         Kirjanpito kirjanpito = new Kirjanpito();
         Varasto varasto = new Varasto(kirjanpito);
