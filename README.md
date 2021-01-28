@@ -1,5 +1,8 @@
 # ohtu-2021-viikot1-3
 
+## Viikko 1
+tehtävät 14 ja 15 https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/viikko1/tehtavat14-16
+
 ## Viikko 2
 tehtävät 1 https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/vk2t1/TyhjaProjeki
 
