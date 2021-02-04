@@ -14,42 +14,42 @@ public class Tester {
         
         sleep(2);
         
-        //WebElement element = driver.findElement(By.linkText("login"));
+        WebElement element = driver.findElement(By.linkText("login"));
+        element.click();
+
+        sleep(2);
+
+        element = driver.findElement(By.name("username"));
+        element.sendKeys("pekkamies");
+        //element.sendKeys("jukka");
+        element = driver.findElement(By.name("password"));
+        element.sendKeys("akkep");
+        element = driver.findElement(By.name("login"));
+        
+        //user testing
+        //WebElement element = driver.findElement(By.linkText("register new user"));
         //element.click();
 
         //sleep(2);
 
         //element = driver.findElement(By.name("username"));
         //element.sendKeys("pekka");
-        //element.sendKeys("jukka");
+        //element.sendKeys("seppot");
         //element = driver.findElement(By.name("password"));
         //element.sendKeys("akkep");
-        //element = driver.findElement(By.name("login"));
+        //element = driver.findElement(By.name("passwordConfirmation"));
         
-        //user testing
-        WebElement element = driver.findElement(By.linkText("register new user"));
-        element.click();
+        //sleep(2);
+        //element.submit();
 
-        sleep(2);
-
-        element = driver.findElement(By.name("username"));
-        //element.sendKeys("pekka");
-        element.sendKeys("seppot");
-        element = driver.findElement(By.name("password"));
-        element.sendKeys("akkep");
-        element = driver.findElement(By.name("passwordConfirmation"));
-        
-        sleep(2);
-        element.submit();
-
-        sleep(3);
-        WebElement element2 = driver.findElement(By.linkText("continue to application mainpage"));
-        element2.click();
-          sleep(3);
-         WebElement element3 = driver.findElement(By.linkText("logout"));   
-         element3.click();
-           sleep(3);
-        driver.quit();
+        //sleep(3);
+        //WebElement element2 = driver.findElement(By.linkText("continue to application mainpage"));
+        //element2.click();
+         // sleep(3);
+         //WebElement element3 = driver.findElement(By.linkText("logout"));   
+         //element3.click();
+         //  sleep(3);
+        //driver.quit();
     }
     
     private static void sleep(int n){
