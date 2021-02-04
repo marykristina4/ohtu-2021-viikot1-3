@@ -2,6 +2,7 @@ package ohtu;
 
 import com.google.gson.Gson;
 import java.io.IOException;
+import java.util.HashMap;
 import org.apache.http.client.fluent.Request;
 
 public class Main {
@@ -23,6 +24,12 @@ public class Main {
             System.out.println(player.getName() + " team "+player.getTeam()+ " goals "+player.getGoals()+ " assists "+player.getAssists());
         }
         }
+        HashMap<Player, Integer> taulukko = new HashMap<>(); 
+        for (Player player : players) {
+            if (player.getNationality().equals("FIN")){
+                taulukko.put(player, Integer.valueOf(player.getAssists())+Integer.valueOf(player.getGoals()));
+            }
     }
   
+}
 }
