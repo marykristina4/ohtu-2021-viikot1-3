@@ -20,12 +20,12 @@ public class IntJoukko {
     }
 
     public IntJoukko(int kapasiteetti, int kasvatuskoko) {
-        if (kapasiteetti < 0) {
-            throw new IndexOutOfBoundsException("Kapasiteetti negatiivinen");
+        if (kapasiteetti < 0 || kasvatuskoko < 0) {
+            throw new IndexOutOfBoundsException("Parametreissa vikaa");
         }
-        if (kasvatuskoko < 0) {
-            throw new IndexOutOfBoundsException("kasvatuskoko negatiivinen");
-        }
+        //if (kasvatuskoko < 0) {
+        //    throw new IndexOutOfBoundsException("kasvatuskoko negatiivinen");
+        //}
         lukujono = new int[kapasiteetti];
         for (int i = 0; i < lukujono.length; i++) {
             lukujono[i] = 0;
@@ -58,19 +58,14 @@ public class IntJoukko {
     }
 
     public boolean kuuluu(int luku) {
-        //int laskuri = 0;
+
         for (int i = 0; i < alkioidenMaara; i++) {
             if (luku == lukujono[i]) {
-                //laskuri++;
                 return true;
             }
         }
-        //if (laskuri > 0) {
-        //    return true;
-        //} else {
-            return false;
-        }
-    
+        return false;
+    }
 
     public boolean poista(int luku) {
         int kohta = -1;

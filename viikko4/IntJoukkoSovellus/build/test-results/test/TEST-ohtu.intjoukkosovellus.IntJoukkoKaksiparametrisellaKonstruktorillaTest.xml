@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-02-11T13:37:09" hostname="DESKTOP-PK28DD7" time="0.106">
+<testsuite name="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-02-11T13:41:25" hostname="DESKTOP-PK28DD7" time="0.103">
   <properties/>
-  <testcase name="samaLukuMeneeJoukkoonVaanKerran" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.003"/>
+  <testcase name="samaLukuMeneeJoukkoonVaanKerran" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.004"/>
   <testcase name="poistettuEiOleEnaaJoukossa" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.0"/>
-  <testcase name="toStringToimii" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.074"/>
+  <testcase name="toStringToimii" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.068"/>
   <testcase name="toStringToimiiTyhjallaJoukolla" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.0"/>
-  <testcase name="palautetaanOikeaTaulukko" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.007"/>
+  <testcase name="palautetaanOikeaTaulukko" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.01"/>
   <testcase name="lukujaLisattyMaara" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.0"/>
   <testcase name="toStringToimiiYhdenKokoiselleJoukolla" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.014"/>
   <testcase name="vainLisatytLuvutLoytyvat" classname="ohtu.intjoukkosovellus.IntJoukkoKaksiparametrisellaKonstruktorillaTest" time="0.0"/>
