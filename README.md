@@ -14,6 +14,9 @@ tehtävä 7 ja 9-12 -> https://github.com/marykristina4/ohtu-2021-viikot1-3/tree
 
 tehtävä 8 https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/viikko2
 
+## Viikko 3
+https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/viikko3
+
 ## Viikko 4
 https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/viikko4
 
