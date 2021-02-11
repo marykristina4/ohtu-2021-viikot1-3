@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ohtu.verkkokauppa.KauppaTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-02-11T11:32:44" hostname="DESKTOP-PK28DD7" time="1.788">
+<testsuite name="ohtu.verkkokauppa.KauppaTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-02-11T11:45:02" hostname="DESKTOP-PK28DD7" time="3.122">
   <properties/>
-  <testcase name="pyydetaanUusiViiteJokaiseenMaksuun" classname="ohtu.verkkokauppa.KauppaTest" time="1.746"/>
-  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanOikeillaParametreilla" classname="ohtu.verkkokauppa.KauppaTest" time="0.01"/>
-  <testcase name="kahdenSamanOstoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanOikeillaParametreilla" classname="ohtu.verkkokauppa.KauppaTest" time="0.004"/>
-  <testcase name="kahdenEriOstoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanOikeillaParametreilla" classname="ohtu.verkkokauppa.KauppaTest" time="0.006"/>
-  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.004"/>
-  <testcase name="kahdenEriOstoksenToinenLoppuPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.007"/>
-  <testcase name="kunAsiointiAloitetaanVanhatTiedotPoissa" classname="ohtu.verkkokauppa.KauppaTest" time="0.006"/>
+  <testcase name="pyydetaanUusiViiteJokaiseenMaksuun" classname="ohtu.verkkokauppa.KauppaTest" time="3.058"/>
+  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanOikeillaParametreilla" classname="ohtu.verkkokauppa.KauppaTest" time="0.012"/>
+  <testcase name="kahdenSamanOstoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanOikeillaParametreilla" classname="ohtu.verkkokauppa.KauppaTest" time="0.009"/>
+  <testcase name="kahdenEriOstoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanOikeillaParametreilla" classname="ohtu.verkkokauppa.KauppaTest" time="0.009"/>
+  <testcase name="kunTuotePoistetaanSenHintaPoissa" classname="ohtu.verkkokauppa.KauppaTest" time="0.008"/>
+  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.005"/>
+  <testcase name="kahdenEriOstoksenToinenLoppuPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.01"/>
+  <testcase name="kunAsiointiAloitetaanVanhatTiedotPoissa" classname="ohtu.verkkokauppa.KauppaTest" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
