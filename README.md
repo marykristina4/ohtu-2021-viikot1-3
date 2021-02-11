@@ -1,4 +1,4 @@
-# ohtu-2021-viikot1-3
+# ohtu-2021-viikot1->
 
 ## Viikko 1
 tehtävät 14 ja 15 https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/viikko1/tehtavat14-16
@@ -14,4 +14,6 @@ tehtävä 7 ja 9-12 -> https://github.com/marykristina4/ohtu-2021-viikot1-3/tree
 
 tehtävä 8 https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/viikko2
 
+## Viikko 4
+https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/viikko4
 
