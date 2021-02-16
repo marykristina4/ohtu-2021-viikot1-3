@@ -25,23 +25,24 @@ public class Kauppa {
 <span class="fc" id="L25">    }</span>
 
     public void poistaKorista(int id) {
-<span class="nc" id="L28">        Tuote t = varasto.haeTuote(id); </span>
-<span class="nc" id="L29">        varasto.palautaVarastoon(t);</span>
-<span class="nc" id="L30">    }</span>
+<span class="fc" id="L28">        Tuote t = varasto.haeTuote(id); </span>
+<span class="fc" id="L29">        varasto.palautaVarastoon(t);</span>
+<span class="fc" id="L30">        ostoskori.poista(t);</span>
+<span class="fc" id="L31">    }</span>
 
     public void lisaaKoriin(int id) {
-<span class="fc bfc" id="L33" title="All 2 branches covered.">        if (varasto.saldo(id)&gt;0) {</span>
-<span class="fc" id="L34">            Tuote t = varasto.haeTuote(id);             </span>
-<span class="fc" id="L35">            ostoskori.lisaa(t);</span>
-<span class="fc" id="L36">            varasto.otaVarastosta(t);</span>
+<span class="fc bfc" id="L34" title="All 2 branches covered.">        if (varasto.saldo(id)&gt;0) {</span>
+<span class="fc" id="L35">            Tuote t = varasto.haeTuote(id);             </span>
+<span class="fc" id="L36">            ostoskori.lisaa(t);</span>
+<span class="fc" id="L37">            varasto.otaVarastosta(t);</span>
         }
-<span class="fc" id="L38">    }</span>
+<span class="fc" id="L39">    }</span>
 
     public boolean tilimaksu(String nimi, String tiliNumero) {
-<span class="fc" id="L41">        int viite = viitegeneraattori.uusi();</span>
-<span class="fc" id="L42">        int summa = ostoskori.hinta();</span>
+<span class="fc" id="L42">        int viite = viitegeneraattori.uusi();</span>
+<span class="fc" id="L43">        int summa = ostoskori.hinta();</span>
         
-<span class="fc" id="L44">        return pankki.tilisiirto(nimi, viite, tiliNumero, kaupanTili, summa);</span>
+<span class="fc" id="L45">        return pankki.tilisiirto(nimi, viite, tiliNumero, kaupanTili, summa);</span>
     }
 
 }
