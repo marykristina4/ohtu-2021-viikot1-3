@@ -20,3 +20,6 @@ https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/viikko3
 ## Viikko 4
 https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/viikko4
 
+## Viikko 5
+https://github.com/marykristina4/ohtu-2021-viikot1-3/tree/main/viikko5
+
