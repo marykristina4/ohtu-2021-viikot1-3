@@ -1,0 +1,28 @@
+Referaatti Eero-Veikko Laineen kandidaatintyöstä Johtaminen perinteisissä ja ketterissä ohjelmistotuotanto-
+projekteissa. Valitsin tämän aiheen, koska se kiinnostaa minua työelämän kautta.
+
+Laine käsittelee kandidaatintyössään johtamista lähtökohtana pohdinta siitä, miksi ohjelmistotuotantoprojektit
+ainakin jollakin mittarilla epäonnistuvat niin kovin usein. Ketterissä menetelmissä merkittävä muutos verrattuna
+perinteiseen projektijohtoon on se, että tiimin tulisi olla itseään johtava. Kandidaatintyössä käydään läpi
+johtajalta vaadittavia taitoja kuten myös johtamistyylejä. Toisistaan voidaan erottaa ohjaava johtajuus, joka on
+lähempänä perinteistä projektipäällikköä, sekä voimaannuttava johtajuus, jossa johtaja jakaa valtaansa tiimille
+ja pyrkii kaikkia osallistumaan päätöksentekoon. On kuitenkin huomioitava, että ohjaava johtajuus on joissain
+tilanteissa edelleen paikallaan, esimerkiksi jos tiimiläiset ovat kokemattomia eivätkä omaa tarvittavia taitoja
+tiiminsä, itsensä, ja hankkeen johtamiseksi. 
+
+Perinteisen projektipäällikön toimenkuva on  muodollisten prosessin noudattamista ja niiden valvomista, kustannus-
+suunnittelua, aikataulutusta jne. Ohjelmistotiimeissä usein johtajan aseman ottaa kokenein koodaaja. Vaihtoehtona
+on egoton tiimi, jossa valtaa on hajautettu koko tiimille. Tässä on paljon samoja piirteitä kuin ketterissä
+johtamismenetelmissä.
+
+Ketterissä menetelmissä mukaanlukien ketterässä johtajuudessa tärkeää on  kommunikaatio, yhteistyö ja avoimuus.
+Ketterissä menetelmissä projektipäällikön tehtävänä on enemmänkin mahdollistaa tiimiä toimimaan, purkaa edestä
+esteitä ja auttaa tiimin jäseniä tarvittaessa. Projektipäällikön roolia onkin kyseenalaistettu: projektipäällikköä
+kuitenkin tarvitaan usein mm. vision ja strategian luontiin, muutosten toteuttamiseen, ohjelmistotuotantotiimin
+ja muiden väliseen kommunikointiin - siis vastaaviin asioihin joita perinteinenkin projektipäällikkö hoitaa. 
+Ketterissä menetelmissä osa projektipällikön tehtävistä sivuaa scrum masterin vastuita. Jaetun johtamisen
+soveltaminen on kuitenkin usein käytännössä hankalaa. Helpointa toki olisi, jos tiimit todella olisivat itse-
+ohjautuvia, mutta silti usein kaivataan väliin projektipäällikkömäistä roolia kommunikoimaan sidosryhmille, koska
+kehitystiimin tulisi saada rauhassa tehdä kehitystyötä. Pitäisi siis löytää jonkinlainen tasapaino siihen, mistä
+asioista tiimi vastaa, ja mistä scrum master ja mistä mahdollinen projektipäällikkö. Tämä jako riippuu usein 
+myös siitä, millaisia rooleja kehitystiimissä on.
