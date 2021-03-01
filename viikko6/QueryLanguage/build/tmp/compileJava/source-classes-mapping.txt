@@ -18,7 +18,7 @@ statistics/matcher/PlaysIn.java
  statistics.matcher.PlaysIn
 statistics/matcher/And.java
  statistics.matcher.And
-statistics/Main.java
- statistics.Main
 statistics/matcher/All.java
  statistics.matcher.All
+statistics/Main.java
+ statistics.Main

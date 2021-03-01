@@ -12,11 +12,11 @@ import statistics.Player;
  *
  * @author marye
  */
-public class Not implements Matcher {
-    private int value;
+public class Or implements Matcher {
+       private int value;
     private String fieldName;
 
-    public Not(int value, String category) {
+    public Or(int value, String category) {
         this.value = value;
         fieldName = "get"+Character.toUpperCase(category.charAt(0))+category.substring(1, category.length());
     }
@@ -26,7 +26,6 @@ public class Not implements Matcher {
         try {                                    
             Method method = p.getClass().getMethod(fieldName);
             int playersValue = (Integer)method.invoke(p);
-           
             return playersValue<=value;
             
         } catch (Exception ex) {
@@ -34,7 +33,5 @@ public class Not implements Matcher {
             throw new IllegalStateException("Player does not have field "+fieldName.substring(3, fieldName.length()).toLowerCase());
         }       
         
-    }    
-    
-
+    }   
 }
