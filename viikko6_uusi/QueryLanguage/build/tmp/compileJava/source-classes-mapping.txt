@@ -18,9 +18,9 @@ statistics/matcher/HasFewerThan.java
  statistics.matcher.HasFewerThan
 statistics/matcher/All.java
  statistics.matcher.All
+statistics/matcher/Not.java
+ statistics.matcher.Not
 statistics/matcher/Or.java
  statistics.matcher.Or
 statistics/Main.java
  statistics.Main
-statistics/matcher/Not.java
- statistics.matcher.Not

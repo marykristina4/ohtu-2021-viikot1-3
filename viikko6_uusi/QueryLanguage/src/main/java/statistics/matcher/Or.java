@@ -13,25 +13,30 @@ import statistics.Player;
  * @author marye
  */
 public class Or implements Matcher {
-       private int value;
-    private String fieldName;
 
-    public Or(int value, String category) {
-        this.value = value;
-        fieldName = "get"+Character.toUpperCase(category.charAt(0))+category.substring(1, category.length());
+
+    private Matcher[] matchers;
+
+    public Or(Matcher... matchers) {
+        this.matchers = matchers;
     }
 
     @Override
     public boolean matches(Player p) {
-        try {                                    
-            Method method = p.getClass().getMethod(fieldName);
-            int playersValue = (Integer)method.invoke(p);
-            return playersValue<=value;
-            
-        } catch (Exception ex) {
-            System.out.println(ex);
-            throw new IllegalStateException("Player does not have field "+fieldName.substring(3, fieldName.length()).toLowerCase());
-        }       
-        
-    }   
+        int i = 0;
+        for (Matcher matcher : matchers) {
+            if (!matcher.matches(p)) {
+                i=i+1;
+                
+            }
+        }
+        if (i==matchers.length-1){
+            return true;
+        }
+        if (i==matchers.length-2){
+            return true;
+        }
+
+        return false;
+    }
 }
