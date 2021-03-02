@@ -13,28 +13,28 @@ import statistics.Player;
  * @author marye
  */
 public class Not implements Matcher {
-    private int value;
-    private String fieldName;
 
-    public Not(int value, String category) {
-        this.value = value;
-        fieldName = "get"+Character.toUpperCase(category.charAt(0))+category.substring(1, category.length());
+    private Matcher matcher;
+
+    public Not(Matcher matcher) {
+        this.matcher = matcher;
+
     }
 
     @Override
     public boolean matches(Player p) {
-        try {                                    
-            Method method = p.getClass().getMethod(fieldName);
-            int playersValue = (Integer)method.invoke(p);
-           
-            return playersValue<=value;
-            
+        try {
+            if (this.matcher.matches(p)){
+                return false;
+            }
+
+            return true;
+
         } catch (Exception ex) {
             System.out.println(ex);
-            throw new IllegalStateException("Player does not have field "+fieldName.substring(3, fieldName.length()).toLowerCase());
-        }       
-        
-    }    
-    
+            throw new IllegalStateException("Player does not have field ");
+        }
+
+    }
 
 }
