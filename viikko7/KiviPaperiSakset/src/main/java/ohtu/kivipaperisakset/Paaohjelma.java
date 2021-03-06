@@ -1,3 +1,7 @@
+//
+// Written as group assignment by Mary Ehrsted, Jenny Perttola, Salla Salokanto 6.3.2021
+//
+
 package ohtu.kivipaperisakset;
 
 import java.util.Scanner;
@@ -10,23 +14,23 @@ public class Paaohjelma {
 
         while (true) {
             System.out.println("\nValitse pelataanko"
-                    + "\n (a) ihmist√§ vastaan "
-                    + "\n (b) teko√§ly√§ vastaan"
-                    + "\n (c) parannettua teko√§ly√§ vastaan"
+                    + "\n (a) ihmist‰ vastaan "
+                    + "\n (b) teko‰ly‰ vastaan"
+                    + "\n (c) parannettua teko‰ly‰ vastaan"
                     + "\nmuilla valinnoilla lopetataan");
 
             String vastaus = scanner.nextLine();
             if (vastaus.endsWith("a")) {
                 System.out.println("peli loppuu kun pelaaja antaa virheellisen siirron eli jonkun muun kuin k, p tai s");
-                KPSPelaajaVsPelaaja kaksinpeli = new KPSPelaajaVsPelaaja();
+                KiviPaperiSakset kaksinpeli = new KPSPelaajaVsPelaaja(Peliparametrit.luoKaksinpeli());
                 kaksinpeli.pelaa();
             } else if (vastaus.endsWith("b")) {
                 System.out.println("peli loppuu kun pelaaja antaa virheellisen siirron eli jonkun muun kuin k, p tai s");
-                KPSTekoaly yksinpeli = new KPSTekoaly();
-                yksinpeli.pelaa();
+                KiviPaperiSakset tekoalypeli = new KPSTekoaly(Peliparametrit.luoTekoalypeli(new Tekoaly()));
+                tekoalypeli.pelaa();
             } else if (vastaus.endsWith("c")) {
                 System.out.println("peli loppuu kun pelaaja antaa virheellisen siirron eli jonkun muun kuin k, p tai s");
-                KPSParempiTekoaly pahaYksinpeli = new KPSParempiTekoaly();
+                KiviPaperiSakset pahaYksinpeli = new KPSParempiTekoaly(Peliparametrit.luoPahaTekoalypeli(new TekoalyParannettu(20)));
                 pahaYksinpeli.pelaa();
             } else {
                 break;
